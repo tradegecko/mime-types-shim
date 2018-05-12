@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    mime-types-shim (0.0.0)
+      mini_mime
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_mime (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mime-types-shim!
+
+BUNDLED WITH
+   1.16.1
