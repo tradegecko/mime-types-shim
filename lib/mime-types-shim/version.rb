@@ -1,3 +1,3 @@
 module MimeTypesShim
-  VERSION = "3.0.0"
+  VERSION = "2.99"
 end
