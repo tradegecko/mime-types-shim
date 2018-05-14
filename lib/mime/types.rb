@@ -4,7 +4,7 @@ module MIME
     # FROM -> ::MIME::Types[file.content_type].first.extensions.first
     # TO   -> MiniMime.lookup_by_content_type(file.content_type).extension
     def self.[](content_type)
-      [OpenStruct.new(extensions: [MiniMime.lookup_by_content_type(content_type).extension])]
+      [OpenStruct.new(extensions: [MiniMime.lookup_by_content_type(content_type)&.extension].compact)]
     end
 
     # FROM -> ::MIME::Types.type_for(move_to).first.to_s

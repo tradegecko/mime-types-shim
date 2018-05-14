@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mime-types-shim (0.0.0)
+    mime-types (2.99)
       mini_mime
 
 GEM
@@ -13,7 +13,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mime-types-shim!
+  mime-types!
 
 BUNDLED WITH
    1.16.1
