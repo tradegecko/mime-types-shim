@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    mime-types (2.99)
+    mime-types (3.2.2)
       mini_mime
 
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_mime (1.0.0)
+    mini_mime (1.0.1)
 
 PLATFORMS
   ruby
@@ -16,4 +16,4 @@ DEPENDENCIES
   mime-types!
 
 BUNDLED WITH
-   1.16.1
+   1.17.0
